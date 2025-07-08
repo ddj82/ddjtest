@@ -1,4 +1,4 @@
-# djtest
+# ddjtest
 
 ## 사용 목적
 백엔드 API 서버입니다.
