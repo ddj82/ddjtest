@@ -14,7 +14,7 @@ Docker만 설치되어 있으면 Java, MySQL 설치 없이 바로 실행 가능�
 git clone https://github.com/ddj82/ddjtest.git
 cd djtest
 
-# 2. Docker 이미지 빌드 및 실행
+# 2. Docker Desktop 실행 후, Docker 이미지 빌드 및 실행
 docker build -t storelabs-app .
 docker run -p 5064:5064 -p 3306:3306 --name storelabs-container storelabs-app
 ```
