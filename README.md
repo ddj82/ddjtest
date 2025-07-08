@@ -11,7 +11,7 @@ Docker만 설치되어 있으면 Java, MySQL 설치 없이 바로 실행 가능�
 
 ```bash
 # 1. 프로젝트 클론
-git clone https://github.com/ddj82/djtest.git
+git clone https://github.com/ddj82/ddjtest.git
 cd djtest
 
 # 2. Docker 이미지 빌드 및 실행
@@ -85,7 +85,7 @@ docker run -p 5064:5064 -p 3306:3306 --name storelabs-container storelabs-app
 - `/api/users?sort=date` - 등록 최신순
 
 **페이징 옵션:**
-- `/api/users?page=0&size=5` - 페이지 번호, 페이지 크기
+- `/api/users?page=0&size=5` - 페이지 번호(0~), 페이지 크기
 
 **조합 사용:**
 - `/api/users?sort=view&page=0&size=5` - 조회수순 정렬 + 페이징
